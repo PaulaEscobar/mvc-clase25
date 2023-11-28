@@ -8,6 +8,7 @@ const port = 3000;
 
 app.use("/", mainRouter);
 
+
 app.use(express.static(path.join(__dirname,"public")));
 
 
